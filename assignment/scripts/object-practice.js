@@ -43,7 +43,9 @@ console.log('My 2nd Favorite Food:', (me.favThreeFoods[2])); // logged the last 
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
+console.log('My current shoe count is:', me.shoeCount); // expected output is 50
+me.shoeCount ++;
+console.log('My updated shoe count:', me.shoeCount); // expected output is 51 
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
