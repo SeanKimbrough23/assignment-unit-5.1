@@ -4,11 +4,17 @@ console.log('***** Object Practice *****')
 
 /* 1. Create an object literal to represent you!
   - Give the object a 'firstName & (separate) 'lastName' property
+
   - Give it a boolean 'hasSiblings' property
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
 const me = {
+  firstName:'Sean',
+  lastName:'Kimbrough',
+  hasSiblings: true,
+  shoeCount: 50,
+  favThreeFoods: ['pineapple', 'burgers', 'waffles'],
   // TODO - add properties here
 };
 console.log('A little about me:', me);
@@ -19,14 +25,16 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
+let fullName = me.firstName + ' ' + me.lastName;
+console.log('My full name is:', fullName);
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+console.log('My 1st Favorite Food:', (me.favThreeFoods[0]));
+console.log('My 2nd Favorite Food:', (me.favThreeFoods[2]));
 
 
 /* 4. Change a property of an existing object.
