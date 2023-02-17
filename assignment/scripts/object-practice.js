@@ -53,3 +53,8 @@ console.log('My updated shoe count:', me.shoeCount); // expected output is 51
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+let favoriteColor = me['favoriteColor'] = 'red';
+
+
+console.log('My new favorite color is:', favoriteColor);
+console.log('Updated Object Literal:', me);
