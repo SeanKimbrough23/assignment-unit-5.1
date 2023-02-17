@@ -33,8 +33,8 @@ console.log('My full name is:', fullName); //logged the new varible fullName
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-console.log('My 1st Favorite Food:', (me.favThreeFoods[0]));
-console.log('My 2nd Favorite Food:', (me.favThreeFoods[2]));
+console.log('My 1st Favorite Food:', (me.favThreeFoods[0])); // logged the 1st item in my FavThreeFoods array
+console.log('My 2nd Favorite Food:', (me.favThreeFoods[2])); // logged the last item in my FavThreeFoods array
 
 
 /* 4. Change a property of an existing object.
