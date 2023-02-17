@@ -25,8 +25,8 @@ console.log('A little about me:', me); // logged object literal of me
     created above to set its value. 
   - Console.log fullName
 */
-let fullName = me.firstName + ' ' + me.lastName;
-console.log('My full name is:', fullName);
+let fullName = me.firstName + ' ' + me.lastName; // created variable fullName and set its value using the oject properties
+console.log('My full name is:', fullName); //logged the new varible fullName 
 
 
 /* 3. Nested arrays
