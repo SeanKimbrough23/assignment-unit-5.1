@@ -9,15 +9,15 @@ console.log('***** Object Practice *****')
   - Give it  a numeric 'shoeCount' property
   - Also give it an array 'favThreeFoods'
 */
-const me = {
-  firstName:'Sean',
-  lastName:'Kimbrough',
-  hasSiblings: true,
-  shoeCount: 50,
-  favThreeFoods: ['pineapple', 'burgers', 'waffles'],
+const me = { // created object literal about myself
+  firstName:'Sean', // assigned property firstName with a value of Sean
+  lastName:'Kimbrough', // assigned property lastName with a value of Kimbrough
+  hasSiblings: true, // assigned Boolean property hasSiblings with a value of true
+  shoeCount: 50, //assigned shoeCount property to a value of number 50
+  favThreeFoods: ['pineapple', 'burgers', 'waffles'], // assigned a FavThreeFoods array with my 3 favorite foods
   // TODO - add properties here
 };
-console.log('A little about me:', me);
+console.log('A little about me:', me); // logged object literal of me
 
 /* 2. Accessing object properties.
   - Create a variable called fullName 
